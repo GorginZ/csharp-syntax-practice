@@ -1,0 +1,12 @@
+/Users/georgia.leng/Desktop/C#/challenges/challenges/bin/Debug/netcoreapp3.1/challenges.deps.json
+/Users/georgia.leng/Desktop/C#/challenges/challenges/bin/Debug/netcoreapp3.1/challenges.runtimeconfig.json
+/Users/georgia.leng/Desktop/C#/challenges/challenges/bin/Debug/netcoreapp3.1/challenges.runtimeconfig.dev.json
+/Users/georgia.leng/Desktop/C#/challenges/challenges/bin/Debug/netcoreapp3.1/challenges.dll
+/Users/georgia.leng/Desktop/C#/challenges/challenges/bin/Debug/netcoreapp3.1/challenges.pdb
+/Users/georgia.leng/Desktop/C#/challenges/challenges/obj/Debug/netcoreapp3.1/challenges.csprojAssemblyReference.cache
+/Users/georgia.leng/Desktop/C#/challenges/challenges/obj/Debug/netcoreapp3.1/challenges.AssemblyInfoInputs.cache
+/Users/georgia.leng/Desktop/C#/challenges/challenges/obj/Debug/netcoreapp3.1/challenges.AssemblyInfo.cs
+/Users/georgia.leng/Desktop/C#/challenges/challenges/obj/Debug/netcoreapp3.1/challenges.csproj.CoreCompileInputs.cache
+/Users/georgia.leng/Desktop/C#/challenges/challenges/obj/Debug/netcoreapp3.1/challenges.dll
+/Users/georgia.leng/Desktop/C#/challenges/challenges/obj/Debug/netcoreapp3.1/challenges.pdb
+/Users/georgia.leng/Desktop/C#/challenges/challenges/obj/Debug/netcoreapp3.1/challenges.genruntimeconfig.cache
