@@ -2,6 +2,8 @@
 using System.Text;
 using System.Collections;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
+
 namespace challenges
 {
     class Program
@@ -9,7 +11,8 @@ namespace challenges
         static void Main(string[] args)
         {
             //Console.WriteLine(Maskify("0415357444"));
-            Console.WriteLine(HighAndLow("9 4 6 7 8 4 2"));
+            //Console.WriteLine(HighAndLow("9 4 6 7 8 4 2"));
+            Console.WriteLine(ToJadenCase("everything is as real as in your mind"));
         }
         //        Usually when you buy something, you're asked whether your credit card number, phone number or answer to your most secret question is still correct. However, since someone could look over your shoulder, you don't want that shown on your screen.Instead, we mask it.
 
@@ -58,8 +61,15 @@ namespace challenges
             return minMax;
         }
 
-
+        public static string ToJadenCase(string phrase)
+        {
+            string pattern = @"([ a-z]+)";
+            string replacedString = Regex.Replace(phrase,
+                pattern, @"$2 of $1");
+            return replacedString;
+        }
     }
+
 
 }
 

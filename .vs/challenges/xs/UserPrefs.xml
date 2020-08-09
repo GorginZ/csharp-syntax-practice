@@ -2,13 +2,15 @@
   <MonoDevelop.Ide.ItemProperties.challenges PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="challenges/Program.cs">
     <Files>
-      <File FileName="challenges/Program.cs" Line="34" Column="1" />
+      <File FileName="challenges/Program.cs" Line="64" Column="45" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="challenges" expanded="True">
-            <Node name="challenges" expanded="True" />
+            <Node name="challenges" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
