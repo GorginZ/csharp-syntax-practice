@@ -12,7 +12,8 @@ namespace challenges
         {
             //Console.WriteLine(Maskify("0415357444"));
             //Console.WriteLine(HighAndLow("9 4 6 7 8 4 2"));
-            Console.WriteLine(ToJadenCase("everything is as real as in your mind"));
+            //Console.WriteLine(ToJadenCase("everything is as real as in your mind"));
+            Console.WriteLine(LivBirthdayCode(26));
         }
         //        Usually when you buy something, you're asked whether your credit card number, phone number or answer to your most secret question is still correct. However, since someone could look over your shoulder, you don't want that shown on your screen.Instead, we mask it.
 
@@ -63,14 +64,46 @@ namespace challenges
 
         public static string ToJadenCase(string phrase)
         {
-            string pattern = @"([ a-z]+)";
-            string replacedString = Regex.Replace(phrase,
-                pattern, @"$2 of $1");
-            return replacedString;
+            var phraseLength = phrase.Length;
+
+            var theIndex = phrase.IndexOf(" ") + 1;
+            //for (int i = 0; i < workingIndex; i++)
+            //{
+            //    var newPhrase = phrase.Replace(phrase[theIndex], char.ToUpper(phrase[theIndex]));
+
+            //}
+
+            //Console.WriteLine(phrase[theIndex]);
+
+            //    Console.WriteLine(newPhrase);
+
+            return theIndex.ToString();
         }
+
+        //this public static function takes an integer as an argument
+        public static int LivBirthdayCode(int years)
+        {
+            //count is 0
+            int count = 0;
+            //for loop while i is less than years input execute below
+            for (int i = 0; i < years; i++)
+            {
+                //count is incremented by 1
+                count++;
+                var birthdayMessage = $"you were {count} years old";
+                Console.WriteLine(birthdayMessage);
+                //when we get to how old we are birthdaymessage reassigned
+                if (count == years)
+                {
+                    birthdayMessage = $"BUT now you are {years}! Happy Birthday Liv!!!! Here's to many more years of learning and friendship";
+                    Console.WriteLine(birthdayMessage);
+                }
+            }
+            //returns years, does this function have to return an int?
+            return years;
+        }
+
     }
-
-
 }
 
 
