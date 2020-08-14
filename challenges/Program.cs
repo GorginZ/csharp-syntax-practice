@@ -83,7 +83,7 @@ namespace challenges
         //this public static function takes an integer as an argument
         public static int LivBirthdayCode(int years)
         {
-            //count is 0
+            //count is 0 you were a baby
             int count = 0;
             //for loop while i is less than years input execute below
             for (int i = 0; i < years; i++)
@@ -99,7 +99,8 @@ namespace challenges
                     Console.WriteLine(birthdayMessage);
                 }
             }
-            //returns years, does this function have to return an int?
+            //returns years, can this function only return an int? how does
+            //this work with types/returning ?
             return years;
         }
 
