@@ -20,7 +20,7 @@
       "outputPath": "/Users/georgia.leng/Desktop/C#/challenges/challenges/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/georgia.leng/.config/NuGet/NuGet.Config"
+        "/Users/georgia.leng/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -56,7 +56,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
       }
     }
   }

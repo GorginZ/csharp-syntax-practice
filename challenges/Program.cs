@@ -10,10 +10,11 @@ namespace challenges
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine(Maskify("0415357444"));
-            //Console.WriteLine(HighAndLow("9 4 6 7 8 4 2"));
+            // Console.WriteLine(Maskify("0415357444"));
+            // Console.WriteLine(HighAndLow("9 4 6 7 8 4 2"));
             //Console.WriteLine(ToJadenCase("everything is as real as in your mind"));
-            Console.WriteLine(LivBirthdayCode(26));
+            // Console.WriteLine(LivBirthdayCode(26));
+            Console.WriteLine(FizzBuzz("FIZZ", "BUZZ"));
         }
         //        Usually when you buy something, you're asked whether your credit card number, phone number or answer to your most secret question is still correct. However, since someone could look over your shoulder, you don't want that shown on your screen.Instead, we mask it.
 
@@ -62,23 +63,23 @@ namespace challenges
             return minMax;
         }
 
-        public static string ToJadenCase(string phrase)
-        {
-            var phraseLength = phrase.Length;
+        // public static string ToJadenCase(string phrase)
+        // {
+        //     var phraseLength = phrase.Length;
 
-            var theIndex = phrase.IndexOf(" ") + 1;
-            //for (int i = 0; i < workingIndex; i++)
-            //{
-            //    var newPhrase = phrase.Replace(phrase[theIndex], char.ToUpper(phrase[theIndex]));
+        //     var theIndex = phrase.IndexOf(" ") + 1;
+        //     for (int i = 0; i < workingIndex; i++)
+        //     {
+        //        var newPhrase = phrase.Replace(phrase[theIndex], char.ToUpper(phrase[theIndex]));
 
-            //}
+        //     }
 
-            //Console.WriteLine(phrase[theIndex]);
+        //     Console.WriteLine(phrase[theIndex]);
 
-            //    Console.WriteLine(newPhrase);
+        //        Console.WriteLine(newPhrase);
 
-            return theIndex.ToString();
-        }
+        //     return theIndex.ToString();
+        // }
 
         //this public static function takes an integer as an argument
         public static int LivBirthdayCode(int years)
@@ -103,7 +104,19 @@ namespace challenges
             //this work with types/returning ?
             return years;
         }
-
+        public static string FizzBuzz(string a, string b)
+        {
+          var num = 100;
+          for (int i = 1; i < num; i++)
+        {
+           var output = "";
+           if( i % 3 == 0) { output += "FIZZ";}
+           if(i % 5 == 0) { output += "BUZZ";}
+           if(output == "") { output = i.ToString(); }
+          Console.WriteLine(output);
+        }
+        return "done!";
+        }
     }
 }
 
